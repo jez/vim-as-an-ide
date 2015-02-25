@@ -32,6 +32,7 @@ Plugin 'Raimondi/delimitMate'
 
 " ----- man pages, tmux -----------------------------------------------
 Plugin 'jez/vim-superman'
+Plugin 'christoomey/vim-tmux-navigator'
 
 call vundle#end()
 
