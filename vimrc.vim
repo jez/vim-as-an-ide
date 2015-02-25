@@ -21,6 +21,7 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 
