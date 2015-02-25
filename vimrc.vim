@@ -34,6 +34,11 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'jez/vim-superman'
 Plugin 'christoomey/vim-tmux-navigator'
 
+" ----- Syntax plugins ------------------------------------------------
+Plugin 'jez/vim-c0'
+Plugin 'jez/vim-ispc'
+Plugin 'kchmck/vim-coffee-script'
+
 call vundle#end()
 
 filetype plugin indent on
