@@ -28,6 +28,9 @@ Plugin 'vim-scripts/a.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 
+" ----- Other text editing features -----------------------------------
+Plugin 'Raimondi/delimitMate'
+
 call vundle#end()
 
 filetype plugin indent on
@@ -117,5 +120,16 @@ nmap <silent> <leader>b :TagbarToggle<CR>
 " ----- airblade/vim-gitgutter settings -----
 " In vim-airline, only display "hunks" if the diff is non-zero
 let g:airline#extensions#hunks#non_zero_only = 1
+
+
+" ----- Raimondi/delimitMate settings -----
+let delimitMate_expand_cr = 1
+augroup mydelimitMate
+  au!
+  au FileType markdown let b:delimitMate_nesting_quotes = ["`"]
+  au FileType tex let b:delimitMate_quotes = ""
+  au FileType tex let b:delimitMate_matchpairs = "(:),[:],{:},`:'"
+  au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
+augroup END
 
 
