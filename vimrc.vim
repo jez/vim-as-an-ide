@@ -30,6 +30,9 @@ Plugin 'tpope/vim-fugitive'
 " ----- Other text editing features -----------------------------------
 Plugin 'Raimondi/delimitMate'
 
+" ----- man pages, tmux -----------------------------------------------
+Plugin 'jez/vim-superman'
+
 call vundle#end()
 
 filetype plugin indent on
