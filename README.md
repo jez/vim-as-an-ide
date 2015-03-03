@@ -62,6 +62,10 @@ the GitHub comments, so be sure to check them out.
 *  [Syntax plugins](https://github.com/jez/vim-as-an-ide/commit/5ba534e)
 *  [Add all the extra plugins that I use](https://github.com/jez/vim-as-an-ide/commit/9089a95)
 
+As you're following along these steps, if you want to check whether what you see
+matches up with what my setup looks like after a given step, jump over to [this
+post](http://blog.jez.io/2015/03/03/vim-as-an-ide/).
+
 
 ## Installation Instructions
 
